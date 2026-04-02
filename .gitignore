@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specifics
+models/
+catboost_info/
+predictions.csv
+data/*.csv
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Frontend (client-app)
+client-app/node_modules/
+client-app/.next/
+client-app/out/
+client-app/build/
+client-app/.env*
+client-app/.vercel/
+client-app/*.log
+client-app/npm-debug.log*
+client-app/yarn-debug.log*
+client-app/yarn-error.log*
+
+# Misc
+.ipynb_checkpoints
+*.log
+.vscode/
+.idea/
