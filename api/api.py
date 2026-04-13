@@ -399,7 +399,7 @@ def explain_single(payload: SingleInput):
                 X_trans = X.values
             # shap_explainer expects array-like transformed features
             if explainer_mode == "kernel":
-                shap_vals = shap_explainer.shap_values(X_trans, nsamples=100)
+                shap_vals = shap_explainer.shap_values(X_trans, nsamples="auto")
             else:
                 shap_vals = shap_explainer.shap_values(X_trans)
             # Normalize shap_vals to a 1D array for the current sample

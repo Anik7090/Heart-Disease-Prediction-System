@@ -29,8 +29,9 @@ def load_pipeline(path: str):
 def run_cv(pipeline, X, y, cv=10, scoring=None, n_jobs=-1):
     if scoring is None:
         scoring = ['roc_auc', 'accuracy', 'precision', 'recall', 'f1']
-    cv_res = cross_validate(pipeline, X, y,
-                            cv=StratifiedKFold(n_splits=cv, shuffle=True, random_state=42),
+    cv_res = cross_validate(
+        pipeline, X, y,
+        cv=StratifiedKFold(n_splits=cv, shuffle=True, random_state=42),
                             scoring=scoring, return_train_score=False, n_jobs=n_jobs)
     # aggregate means
     summary = {metric: float(cv_res[f'test_{metric}'].mean()) for metric in scoring}
