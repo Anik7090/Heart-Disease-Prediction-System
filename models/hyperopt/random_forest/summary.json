@@ -1,0 +1,13 @@
+{
+  "model": "random_forest",
+  "best_score": 0.8840483074087411,
+  "best_params": {
+    "bootstrap": true,
+    "max_depth": 12,
+    "max_features": "log2",
+    "min_samples_leaf": 4,
+    "min_samples_split": 9,
+    "n_estimators": 797,
+    "smote": "SMOTE"
+  }
+}

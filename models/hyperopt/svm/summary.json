@@ -1,0 +1,10 @@
+{
+  "model": "svm",
+  "best_score": 0.8867369336475027,
+  "best_params": {
+    "C": 67.15784571880683,
+    "gamma": 0.001,
+    "kernel": "rbf",
+    "smote": "SMOTE"
+  }
+}

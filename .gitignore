@@ -12,7 +12,6 @@ env.bak/
 venv.bak/
 
 # Project specifics
-models/
 catboost_info/
 predictions.csv
 data/*.csv
@@ -43,3 +42,5 @@ client-app/yarn-error.log*
 *.log
 .vscode/
 .idea/
+
+data/

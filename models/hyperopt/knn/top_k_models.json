@@ -1,0 +1,13 @@
+[
+  {
+    "rank": 1,
+    "mean_test_score": 0.8861297570240658,
+    "std_test_score": 0.02669401700784676,
+    "params": {
+      "clf__n_neighbors": 27,
+      "clf__p": 1,
+      "clf__weights": "distance",
+      "smote": "SMOTE"
+    }
+  }
+]

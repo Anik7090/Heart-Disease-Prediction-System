@@ -1,0 +1,10 @@
+{
+  "model": "knn",
+  "best_score": 0.8861297570240658,
+  "best_params": {
+    "n_neighbors": 27,
+    "p": 1,
+    "weights": "distance",
+    "smote": "SMOTE"
+  }
+}

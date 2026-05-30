@@ -1,0 +1,14 @@
+{
+  "model": "lightgbm",
+  "best_score": 0.8861441634747866,
+  "best_params": {
+    "bagging_fraction": 0.5198042692950159,
+    "feature_fraction": 0.708540663048167,
+    "learning_rate": 0.18272437065861274,
+    "max_depth": 1,
+    "min_child_samples": 41,
+    "n_estimators": 120,
+    "num_leaves": 92,
+    "smote": null
+  }
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "rank": 1,
+    "mean_test_score": 0.8867369336475027,
+    "std_test_score": 0.02221950191010308,
+    "params": {
+      "clf__C": 67.15784571880683,
+      "clf__gamma": 0.001,
+      "clf__kernel": "rbf",
+      "smote": "SMOTE"
+    }
+  }
+]

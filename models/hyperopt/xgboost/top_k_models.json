@@ -1,0 +1,18 @@
+[
+  {
+    "rank": 1,
+    "mean_test_score": 0.8832396580635062,
+    "std_test_score": 0.02205485158144474,
+    "params": {
+      "clf__colsample_bytree": 0.43471833865462445,
+      "clf__gamma": 1.9726089930406494,
+      "clf__learning_rate": 0.03702681978076531,
+      "clf__max_depth": 7,
+      "clf__n_estimators": 107,
+      "clf__reg_alpha": 0.004772210759684255,
+      "clf__reg_lambda": 0.3867171626724238,
+      "clf__subsample": 0.6941341919949361,
+      "smote": "SMOTE"
+    }
+  }
+]

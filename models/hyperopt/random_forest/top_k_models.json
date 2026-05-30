@@ -1,0 +1,16 @@
+[
+  {
+    "rank": 1,
+    "mean_test_score": 0.8840483074087411,
+    "std_test_score": 0.02507239835266683,
+    "params": {
+      "clf__bootstrap": true,
+      "clf__max_depth": 12,
+      "clf__max_features": "log2",
+      "clf__min_samples_leaf": 4,
+      "clf__min_samples_split": 9,
+      "clf__n_estimators": 797,
+      "smote": "SMOTE"
+    }
+  }
+]
