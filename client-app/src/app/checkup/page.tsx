@@ -130,11 +130,14 @@ export default function PredictPage() {
 
   // typed API calls
   async function callPredict(payload: FormSchema) {
-    const res = await fetch("/predict", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
+    const res = await fetch(
+      "https://heart-disease-api-ybxz.onrender.com/predict",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      }
+    );
     if (!res.ok) {
       const txt = await res.text();
       throw new Error(txt || `HTTP ${res.status}`);
@@ -143,11 +146,14 @@ export default function PredictPage() {
   }
 
   async function callExplain(payload: FormSchema) {
-    const res = await fetch("/explain", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
+   const res = await fetch(
+  "https://heart-disease-api-ybxz.onrender.com/explain",
+  {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  }
+);
     if (!res.ok) {
       const txt = await res.text();
       throw new Error(txt || `HTTP ${res.status}`);
